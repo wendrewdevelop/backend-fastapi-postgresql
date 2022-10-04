@@ -32,9 +32,5 @@
     "docker_image_prefix": "",
 
     "docker_image_backend": "{{cookiecutter.docker_image_prefix}}backend",
-    "docker_image_celeryworker": "{{cookiecutter.docker_image_prefix}}celeryworker",
-
-    // "_copy_without_render": [
-    //     "app/app/email-templates/**"
-    // ]
+    "docker_image_celeryworker": "{{cookiecutter.docker_image_prefix}}celeryworker"
 }
