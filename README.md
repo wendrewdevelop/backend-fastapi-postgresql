@@ -4,22 +4,6 @@
 
 Generate a backend using Python, including interactive API documentation.
 
-### Interactive API documentation
-
-[![API docs](img/docs.png)](https://github.com/tiangolo/full-stack-fastapi-postgresql)
-
-### Alternative API documentation
-
-[![API docs](img/redoc.png)](https://github.com/tiangolo/full-stack-fastapi-postgresql)
-
-### Dashboard Login
-
-[![API docs](img/login.png)](https://github.com/tiangolo/full-stack-fastapi-postgresql)
-
-### Dashboard - Create User
-
-[![API docs](img/dashboard.png)](https://github.com/tiangolo/full-stack-fastapi-postgresql)
-
 ## Features
 
 * Full **Docker** integration (Docker based).
@@ -123,7 +107,6 @@ After using this generator, your new project (the directory created) will contai
 ### Latest Changes
 
 * Update project to remove frontend generation and transform project to Backend Stack Base Generator.
-
 * Update issue-manager. PR [#211](https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/211).
 * Add [GitHub Sponsors](https://github.com/sponsors/tiangolo) button. PR [#201](https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/201).
 * Add consistent errors for env vars not set. PR [#200](https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/200).
