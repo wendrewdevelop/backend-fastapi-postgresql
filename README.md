@@ -1,4 +1,4 @@
-# Full Stack FastAPI and PostgreSQL - Base Project Generator
+# Backend Stack FastAPI and PostgreSQL - Base Project Generator
 
 [![Build Status](https://travis-ci.com/tiangolo/full-stack-fastapi-postgresql.svg?branch=master)](https://travis-ci.com/tiangolo/full-stack-fastapi-postgresql)
 
@@ -121,6 +121,8 @@ After using this generator, your new project (the directory created) will contai
 ## Release Notes
 
 ### Latest Changes
+
+* Update project to remove frontend generation and transform project to Backend Stack Base Generator.
 
 * Update issue-manager. PR [#211](https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/211).
 * Add [GitHub Sponsors](https://github.com/sponsors/tiangolo) button. PR [#201](https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/201).
