@@ -35,6 +35,6 @@
     "docker_image_celeryworker": "{{cookiecutter.docker_image_prefix}}celeryworker",
 
     "_copy_without_render": [
-        "backend/app/app/email-templates/**"
+        "app/email-templates/**"
     ]
 }
