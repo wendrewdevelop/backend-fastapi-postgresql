@@ -101,7 +101,7 @@ $ docker-compose exec backend bash
 You should see an output like:
 
 ```console
-root@7f2607af31c3:/app#
+root@7f2607af31c3:/api#
 ```
 
 that means that you are in a `bash` session inside your container, as a `root` user, under the `/app` directory.
@@ -115,7 +115,7 @@ $ bash /start-reload.sh
 ...it will look like:
 
 ```console
-root@7f2607af31c3:/app# bash /start-reload.sh
+root@7f2607af31c3:/api# bash /start-reload.sh
 ```
 
 and then hit enter. That runs the live reloading server that auto reloads when it detects code changes.
@@ -201,7 +201,7 @@ And use the environment variable `$JUPYTER` to run a Jupyter Notebook with every
 It will output something like:
 
 ```console
-root@73e0ec1f1ae6:/app# $JUPYTER
+root@73e0ec1f1ae6:/api# $JUPYTER
 [I 12:02:09.975 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
 [I 12:02:10.317 NotebookApp] Serving notebooks from local directory: /app
 [I 12:02:10.317 NotebookApp] The Jupyter Notebook is running at:
